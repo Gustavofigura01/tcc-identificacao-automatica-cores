@@ -1,0 +1,55 @@
+# Git attributes
+
+# Auto detect text files and normalize line endings
+* text=auto
+
+# Python
+*.py text eol=lf
+*.ipynb text eol=lf
+
+# MATLAB
+*.m text eol=lf
+
+# C/C++
+*.c text eol=lf
+*.cpp text eol=lf
+*.h text eol=lf
+*.hpp text eol=lf
+
+# Documentation
+*.md text eol=lf
+*.txt text eol=lf
+*.rst text eol=lf
+
+# LaTeX
+*.tex text eol=lf
+*.bib text eol=lf
+
+# Scripts
+*.sh text eol=lf
+*.bash text eol=lf
+
+# Configuration
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf
+*.ini text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.h5 binary
+*.pkl binary
+*.tflite binary
+*.bin binary
+*.elf binary
+*.zip binary
+*.tar.gz binary
+
+# Linguist overrides
+*.m linguist-language=MATLAB
+docs/** linguist-documentation
