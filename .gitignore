@@ -1,0 +1,127 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Modelos e dados treinados
+*.h5
+*.pkl
+*.tflite
+*.pb
+saved_model/
+*.onnx
+*.weights
+
+# Datasets e arquivos grandes
+*.csv
+*.zip
+*.tar.gz
+*.rar
+dados_*.csv
+dataset_*.csv
+
+# Arquivos gerados
+modelo_cor.cc
+modelo_cor.h
+scaler.h
+
+# MATLAB
+*.asv
+*.m~
+*.autosave
+
+# ESP32 / PlatformIO / Arduino
+.pio/
+.vscode/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+*.bin
+*.elf
+*.map
+
+# Logs
+*.log
+logs/
+
+# Sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# Temporários
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Documentos compilados
+*.pdf
+*.aux
+*.out
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# Imagens de resultados (opcional - comente se quiser versionar)
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Credenciais e configurações sensíveis
+.env
+.env.local
+config.ini
+secrets.json
+credentials.json
