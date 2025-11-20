@@ -1,7 +1,7 @@
 # Sistema de Identificação Automática de Cores
 
 **Trabalho de Conclusão de Curso - Engenharia de Computação**  
-**UTFPR - Campus Toledo**
+**UTFPR*
 
 ## 📋 Sobre o Projeto
 
